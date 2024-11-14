@@ -29,7 +29,7 @@ DIRB n'est pas disponible nativement pour Windows, mais il peut être utilisé v
 * Installez WSL via les fonctionnalités Windows, puis installez une distribution Linux comme Ubuntu.
 * Une fois Ubuntu installé, ouvrez WSL et exécutez les commandes d'installation pour Linux mentionnées ci-dessus.
 
-#### Utilisation de Base de DIRB et Discrétion
+#### Utilisation de Base de DIRB
 
 **Découverte de Répertoires et de Fichiers**
 
@@ -39,7 +39,7 @@ DIRB n'est pas disponible nativement pour Windows, mais il peut être utilisé v
 dirb http://example.com
 ```
 
-_Explication :_ Lance un scan de base en utilisant les listes de mots par défaut fournies avec DIRB. _Discrétion :_ Moyenne à élevée. Cela peut générer beaucoup de trafic réseau et être facilement détecté par des systèmes IDS/IPS modernes.
+_Explication :_ Lance un scan de base en utilisant les listes de mots par défaut fournies avec DIRB.
 
 **Test de Répertoires avec Wordlist Personnalisée**
 
@@ -49,9 +49,9 @@ _Explication :_ Lance un scan de base en utilisant les listes de mots par défau
 dirb http://example.com /path/to/custom_wordlist
 ```
 
-_Explication :_ Utilise une liste de mots personnalisée pour tester des chemins spécifiques sur le serveur cible. _Discrétion :_ Moyenne. Utiliser des listes de mots personnalisées peut réduire le trafic réseau, mais reste détectable par les journaux serveur.
+_Explication :_ Utilise une liste de mots personnalisée pour tester des chemins spécifiques sur le serveur cible.
 
-#### Options Avancées et Discrétion
+#### Options Avancées
 
 **Utiliser des Options de Ligne de Commande**
 
@@ -61,7 +61,7 @@ _Explication :_ Utilise une liste de mots personnalisée pour tester des chemins
 dirb http://example.com -N 404
 ```
 
-_Explication :_ Ignore les réponses avec le code de statut 404, ce qui peut aider à réduire le bruit dans les résultats. _Discrétion :_ Moyenne. Cela réduit le nombre de requêtes fausses positives enregistrées par les systèmes de surveillance.
+_Explication :_ Ignore les réponses avec le code de statut 404, ce qui peut aider à réduire le bruit dans les résultats.
 
 **Spécifier des extensions de fichiers**
 
@@ -69,9 +69,9 @@ _Explication :_ Ignore les réponses avec le code de statut 404, ce qui peut aid
 dirb http://example.com -X .php,.html
 ```
 
-_Explication :_ Teste uniquement les chemins avec les extensions spécifiées, ciblant ainsi les types de fichiers les plus susceptibles d'être vulnérables. _Discrétion :_ Moyenne à élevée. Cibler des extensions spécifiques peut accélérer le scan mais peut aussi attirer l'attention si les extensions visées sont sensibles.
+_Explication :_ Teste uniquement les chemins avec les extensions spécifiées, ciblant ainsi les types de fichiers les plus susceptibles d'être vulnérables. 
 
-#### Exemples de Scénarios et Discrétion
+#### Exemples de Scénarios
 
 **Découverte de panneaux d'administration cachés**
 
@@ -79,7 +79,7 @@ _Explication :_ Teste uniquement les chemins avec les extensions spécifiées, c
 dirb http://example.com /usr/share/dirb/wordlists/common.txt -X .php
 ```
 
-_Explication :_ Cible les fichiers PHP souvent utilisés pour les interfaces d'administration. _Discrétion :_ Élevée. La recherche de panneaux d'administration peut être vue comme malveillante et attire souvent l'attention.
+_Explication :_ Cible les fichiers PHP souvent utilisés pour les interfaces d'administration.
 
 **Audit de sécurité d'une application web**
 
@@ -87,7 +87,7 @@ _Explication :_ Cible les fichiers PHP souvent utilisés pour les interfaces d'a
 dirb http://example.com /path/to/security_audit_wordlist -N 200-299
 ```
 
-_Explication :_ Concentre le scan sur les réponses avec des codes de succès (200-299), utile pour identifier les ressources exposées mais non sécurisées. _Discrétion :_ Moyenne. Limiter les codes de réponse peut réduire les logs indésirables.
+_Explication :_ Concentre le scan sur les réponses avec des codes de succès (200-299), utile pour identifier les ressources exposées mais non sécurisées.
 
 #### Bonnes Pratiques
 
