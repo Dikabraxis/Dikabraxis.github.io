@@ -44,7 +44,6 @@ Certaines distributions Linux peuvent proposer SMBmap dans leurs dépôts, mais 
     ```
 
     * **Explication** : `-H` spécifie l'adresse IP de l'hôte que vous souhaitez scanner pour découvrir les partages SMB.
-    * **Discrétion** : Moyenne. Le scan de partages peut être détecté par des systèmes de surveillance réseau.
 
 **Vérifier les Permissions sur un Partage**
 
@@ -55,7 +54,6 @@ Certaines distributions Linux peuvent proposer SMBmap dans leurs dépôts, mais 
     ```
 
     * **Explication** : `-u` et `-p` permettent de spécifier les informations d'authentification pour accéder aux partages SMB. Sans ces options, SMBmap essaiera de se connecter avec des informations d'authentification anonymes.
-    * **Discrétion** : Moyenne à élevée. Les tests avec des informations d'authentification peuvent générer des logs dans les systèmes de gestion des accès.
 
 **Extraire des Fichiers à Partir des Partages**
 
@@ -66,7 +64,7 @@ Certaines distributions Linux peuvent proposer SMBmap dans leurs dépôts, mais 
     ```
 
     * **Explication** : `-R` spécifie le répertoire à l'intérieur du partage SMB, et `-L` liste les fichiers dans ce répertoire. Vous pouvez ensuite utiliser les options supplémentaires pour télécharger des fichiers.
-    * **Discrétion** : Élevée. Télécharger des fichiers peut être détecté et enregistré dans les journaux du serveur.
+      
 2.  **Télécharger un Fichier Spécifique**
 
     ```bash
@@ -74,7 +72,6 @@ Certaines distributions Linux peuvent proposer SMBmap dans leurs dépôts, mais 
     ```
 
     * **Explication** : `-T` spécifie le chemin du fichier sur le partage SMB, et `-o` spécifie le chemin local où le fichier sera sauvegardé.
-    * **Discrétion** : Élevée. Les tentatives de téléchargement de fichiers peuvent attirer l'attention.
 
 **Rechercher des Fichiers dans les Partages**
 
@@ -85,7 +82,6 @@ Certaines distributions Linux peuvent proposer SMBmap dans leurs dépôts, mais 
     ```
 
     * **Explication** : `-s` permet de rechercher des fichiers correspondant à un terme de recherche dans le répertoire spécifié.
-    * **Discrétion** : Moyenne à élevée. Les recherches peuvent être détectées par des systèmes de surveillance.
 
 #### Exemples de Scénarios
 
@@ -119,7 +115,7 @@ Certaines distributions Linux peuvent proposer SMBmap dans leurs dépôts, mais 
 
     * **Explication** : Télécharge le fichier `important.docx` du partage `documents` sur le serveur SMB.
 
-#### Discrétion et Bonnes Pratiques
+#### Bonnes Pratiques
 
 1. **Obtenir des Autorisations**
    * **Assurez-vous toujours** d'avoir les autorisations nécessaires avant d'effectuer des tests de sécurité sur des réseaux SMB.
