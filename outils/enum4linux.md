@@ -41,8 +41,7 @@ Enum4Linux est un script Perl conçu pour extraire des informations des système
     * **Explication** :
       * `-a` : Effectue une énumération complète (inclut les utilisateurs, les groupes, les partages, etc.).
       * `<IP_du_Serveur>` : Adresse IP du serveur Windows cible.
-    * **Discrétion** : Moyenne. Une énumération complète génère du trafic réseau et peut être détectée par des systèmes de surveillance.
-
+   
 **2. Récupération des Utilisateurs**
 
 *   **Lister les utilisateurs du domaine** :
@@ -53,8 +52,7 @@ Enum4Linux est un script Perl conçu pour extraire des informations des système
 
     * **Explication** :
       * `-u` : Liste les utilisateurs du domaine.
-    * **Discrétion** : Moyenne. L'interrogation des utilisateurs peut attirer l'attention si elle est surveillée.
-
+   
 **3. Récupération des Groupes**
 
 *   **Lister les groupes du domaine** :
@@ -65,7 +63,6 @@ Enum4Linux est un script Perl conçu pour extraire des informations des système
 
     * **Explication** :
       * `-g` : Liste les groupes du domaine.
-    * **Discrétion** : Moyenne. L'interrogation des groupes peut attirer l'attention si elle est surveillée.
 
 **4. Récupération des Partages**
 
@@ -77,7 +74,6 @@ Enum4Linux est un script Perl conçu pour extraire des informations des système
 
     * **Explication** :
       * `-s` : Liste les partages réseau.
-    * **Discrétion** : Moyenne. L'interrogation des partages réseau peut attirer l'attention si elle est surveillée.
 
 #### Options Avancées
 
@@ -91,7 +87,6 @@ Enum4Linux est un script Perl conçu pour extraire des informations des système
 
     * **Explication** :
       * `-p` : Récupère les politiques de sécurité et les informations sur les utilisateurs.
-    * **Discrétion** : Moyenne. L'interrogation des politiques de sécurité peut attirer l'attention.
 
 **2. Récupération des Mappages de Répertoires**
 
@@ -103,7 +98,6 @@ Enum4Linux est un script Perl conçu pour extraire des informations des système
 
     * **Explication** :
       * `-r` : Récupère les répertoires mappés (partages et les droits).
-    * **Discrétion** : Moyenne. L'interrogation des répertoires mappés peut attirer l'attention.
 
 #### Exemples de Commandes
 
@@ -115,7 +109,6 @@ Enum4Linux est un script Perl conçu pour extraire des informations des système
     perl enum4linux.pl -a 192.168.1.10
     ```
 
-    * **Discrétion** : Moyenne. Génère du trafic réseau et peut être détectée par des systèmes de surveillance.
 
 **2. Lister les Utilisateurs**
 
@@ -125,7 +118,6 @@ Enum4Linux est un script Perl conçu pour extraire des informations des système
     perl enum4linux.pl -u 192.168.1.10
     ```
 
-    * **Discrétion** : Moyenne. Peut attirer l'attention si elle est surveillée.
 
 **3. Lister les Partages Réseau**
 
@@ -134,9 +126,4 @@ Enum4Linux est un script Perl conçu pour extraire des informations des système
     ```bash
     perl enum4linux.pl -s 192.168.1.10
     ```
-
-    * **Discrétion** : Moyenne. Peut attirer l'attention si elle est surveillée.
-
-#### Discrétion
-
-**Discrétion** : Moyenne à faible. Enum4Linux interagit avec le service SMB des systèmes Windows, ce qui peut être détecté par des systèmes de surveillance de réseau et des outils de gestion des journaux de sécurité. Assurez-vous d'avoir l'autorisation nécessaire avant d'utiliser Enum4Linux dans des environnements de production ou sur des systèmes qui ne vous appartiennent pas.
+    
