@@ -1,6 +1,3 @@
-
-# Tutoriel Complet sur Penelope
-
 ## Introduction
 Penelope est un outil de gestion de shells, conçu pour aider les pentesters à améliorer la gestion des shells inversés. Il fournit une interface avancée qui permet des fonctionnalités telles que l'auto-upgrade de shells en PTY (Pseudo-Terminal), la gestion de multiples sessions, le téléchargement et l'upload de fichiers, ainsi que d'autres commandes interactives.
 
