@@ -1,5 +1,3 @@
-# 😁 Sublist3r
-
 #### Introduction
 
 Sublist3r est un outil pour la découverte de sous-domaines. Il aide les testeurs de sécurité et les analystes à identifier les sous-domaines associés à un domaine cible, ce qui est crucial pour une reconnaissance efficace.
