@@ -1,5 +1,3 @@
-# 😁 Feroxbuster
-
 #### Introduction
 
 FeroxBuster est un outil rapide de découverte de contenu web qui utilise des techniques de force brute pour identifier les fichiers et répertoires cachés sur des serveurs web. Conçu pour être rapide et efficace, FeroxBuster permet aux auditeurs de sécurité et aux pentesters de découvrir des ressources non référencées qui peuvent révéler des vulnérabilités potentielles ou des informations sensibles.
