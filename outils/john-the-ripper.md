@@ -2,6 +2,7 @@
 layout: default
 title: "John The Ripper"
 ---
+
 #### Introduction
 
 John the Ripper est un outil robuste de craquage de mots de passe conçu pour aider les administrateurs de systèmes, les auditeurs de sécurité, et les passionnés de cybersécurité à tester la robustesse des mots de passe dans leurs systèmes. Il supporte de nombreux formats de hachage et inclut des utilitaires qui facilitent la conversion de formats spécifiques de données cryptées (comme SSH, GPG) en un format que John peut traiter.
