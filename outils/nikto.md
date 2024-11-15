@@ -1,5 +1,3 @@
-# 😁 Nikto
-
 #### Introduction
 
 Nikto est un outil de scan de vulnérabilités pour les serveurs web. Il recherche des problèmes courants tels que des fichiers ou des répertoires vulnérables, des versions de logiciels obsolètes et des configurations de sécurité incorrectes. Nikto est efficace pour une première évaluation de la sécurité des serveurs web.
