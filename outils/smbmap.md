@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Smbmap"
+---
+
 #### Introduction
 
 SMBmap est un outil open-source qui facilite l'exploration des partages SMB sur un réseau. Il peut aider à identifier les fichiers partagés et les permissions d'accès sur les serveurs SMB, souvent dans le cadre de tests de pénétration et d'audits de sécurité.
