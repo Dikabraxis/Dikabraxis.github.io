@@ -2,6 +2,7 @@
 layout: default
 title: "Acunetix"
 ---
+
 **Introduction**\
 Acunetix est un scanner de vulnérabilités web automatisé qui identifie les failles de sécurité dans les applications web telles que les injections SQL, les vulnérabilités XSS et les erreurs de configuration. Il fournit des rapports détaillés pour aider à corriger les vulnérabilités découvertes.
 
