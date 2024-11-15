@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Pwncat"
+---
+
 #### Introduction
 
 Pwncat est un outil de post-exploitation et un wrapper autour des connexions shell traditionnelles qui automatisent des aspects courants de la gestion des sessions et de l'escalade de privilèges. Il est conçu pour offrir une expérience plus riche et plus efficace lors de l'interaction avec des shells inversés, en fournissant des outils pour l'analyse des systèmes compromis, l'exécution automatisée de commandes, et même la persistance.
