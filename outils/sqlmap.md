@@ -1,5 +1,3 @@
-# 😁 SQLmap
-
 #### Introduction
 
 SQLmap est un outil open-source pour l'exploration et l'exploitation des vulnérabilités d'injection SQL. Il peut automatiser le processus d'injection SQL, ce qui en fait un outil précieux pour les pentesters et les chercheurs en sécurité.
