@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Metasploit"
+---
+
 #### Introduction
 
 Metasploit est un framework open-source pour le développement et l'exécution d'exploits contre des systèmes distants. Il est conçu pour aider les professionnels de la sécurité à identifier et à exploiter les vulnérabilités dans les systèmes informatiques.
