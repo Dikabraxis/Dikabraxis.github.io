@@ -1,5 +1,3 @@
-# 😁 HYDRA
-
 #### Introduction
 
 Hydra (ou THC-Hydra) est un outil open-source utilisé pour effectuer des attaques par force brute sur divers protocoles de connexion. Il est capable de tester des millions de combinaisons de mots de passe pour trouver les informations d'authentification correctes.
