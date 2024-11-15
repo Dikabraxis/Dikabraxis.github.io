@@ -1,5 +1,3 @@
-# 😁 Recon-ng
-
 #### Introduction
 
 Recon-ng est conçu pour faciliter l'automatisation de la reconnaissance et de la collecte d'informations sur des cibles. Il offre une interface en ligne de commande avec une série de modules pour différents types de collecte de données.
