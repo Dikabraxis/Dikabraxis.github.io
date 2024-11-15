@@ -3,8 +3,6 @@ layout: default
 title: "Outils de Hacking Éthique"
 ---
 
-# Outils de Hacking Éthique
-
 Bienvenue dans la section dédiée aux outils de hacking éthique. Cliquez sur un outil pour accéder à son tutoriel détaillé.
 
 ## Liste des Outils
