@@ -58,3 +58,27 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #007acc;
 }
+
+#search-input {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#search-results a {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+#search-results a:hover {
+    background-color: #007acc;
+    color: #fff;
+}
