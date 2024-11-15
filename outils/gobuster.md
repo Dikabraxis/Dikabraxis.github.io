@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Gobuster"
+---
 **Introduction**\
 Gobuster est un outil de brute force efficace pour découvrir des répertoires, des fichiers cachés, et des sous-domaines associés à un domaine. Il utilise des listes de mots pour tester différentes routes et noms sur un serveur web.
 
