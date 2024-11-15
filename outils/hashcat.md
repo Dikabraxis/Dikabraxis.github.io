@@ -1,5 +1,3 @@
-# 😁 Hashcat
-
 #### Introduction
 
 Hashcat est un outil de craquage de mots de passe hautement performant qui peut déchiffrer des hachages en utilisant des méthodes diverses et puissantes. Il prend en charge une large gamme de types de hachage et utilise le matériel GPU pour accélérer les attaques.
