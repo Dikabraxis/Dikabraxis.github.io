@@ -1,4 +1,4 @@
 title: "Ma Hacking Base"
 description: "Un site pour partager mes connaissances en hacking"
-theme: minima
+theme: jekyll-theme-hacker
 markdown: kramdown
