@@ -1,5 +1,3 @@
-# 😁 Wapiti
-
 #### Introduction
 
 Wapiti est un scanner de vulnérabilités qui analyse les applications web pour détecter les failles de sécurité telles que les injections SQL, les scripts inter-sites (XSS), les failles de redirection, et bien plus. Il fonctionne en explorant les pages web et en testant les points d'entrée pour identifier les vulnérabilités.
