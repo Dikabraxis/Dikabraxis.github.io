@@ -2,6 +2,7 @@
 layout: default
 title: "Cewl"
 ---
+
 #### Introduction
 
 Cewl est un outil Ruby conçu pour créer des dictionnaires personnalisés en analysant le contenu HTML d'un site web. Il peut extraire des mots et des phrases du contenu des pages web pour générer des listes de mots qui peuvent être utilisées pour les attaques par dictionnaire.
