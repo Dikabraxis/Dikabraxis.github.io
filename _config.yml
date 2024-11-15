@@ -1,0 +1,119 @@
+# Configuration pour le site GitHub Pages
+title: "Ma Hacking Base"
+description: "Site dédié à l'apprentissage du hacking éthique et des outils de pentest."
+theme: minima
+baseurl: ""
+url: "https://dikabraxis.github.io"
+
+# Configuration des permaliens pour des URLs propres
+permalink: /:path/
+
+# Inclure tous les fichiers Markdown dans le dossier outils/
+include:
+  - index.md
+  - outils/*.md
+
+# Exclure certains fichiers inutiles lors du rendu
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Configuration Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  toc_levels: 2..4
+
+# Plugins pour améliorer le SEO et la navigation
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Sidebar avec navigation pour tous vos outils
+sidebar:
+  - title: "Navigation"
+    items:
+      - text: "Accueil"
+        link: /index.html
+      - text: "Outils"
+        link: /outils.html
+
+  - title: "Liste des Outils"
+    items:
+      - text: "Acunetix"
+        link: /outils/acunetix.html
+      - text: "Aircrack-ng"
+        link: /outils/aircrack-ng.html
+      - text: "Burp Suite"
+        link: /outils/burp-suite.html
+      - text: "CeWL"
+        link: /outils/cewl.html
+      - text: "DIRB"
+        link: /outils/dirb.html
+      - text: "Empire"
+        link: /outils/empire.html
+      - text: "Enum4Linux"
+        link: /outils/enum4linux.html
+      - text: "Feroxbuster"
+        link: /outils/feroxbuster.html
+      - text: "Gobuster"
+        link: /outils/gobuster.html
+      - text: "Hashcat"
+        link: /outils/hashcat.html
+      - text: "Hydra"
+        link: /outils/hydra.html
+      - text: "John the Ripper"
+        link: /outils/john-the-ripper.html
+      - text: "Metasploit"
+        link: /outils/metasploit.html
+      - text: "Mimikatz"
+        link: /outils/mimikatz.html
+      - text: "Netcat"
+        link: /outils/netcat.html
+      - text: "Nikto"
+        link: /outils/nikto.html
+      - text: "Nmap"
+        link: /outils/nmap.html
+      - text: "OpenVAS"
+        link: /outils/openvas.html
+      - text: "Penelope"
+        link: /outils/penelope.html
+      - text: "Pwncat"
+        link: /outils/pwncat.html
+      - text: "Recon-ng"
+        link: /outils/recon-ng.html
+      - text: "SMBMap"
+        link: /outils/smbmap.html
+      - text: "SQLMap"
+        link: /outils/sqlmap.html
+      - text: "Sublist3r"
+        link: /outils/sublist3r.html
+      - text: "The Harvester"
+        link: /outils/the-harvester.html
+      - text: "Wapiti"
+        link: /outils/wapiti.html
+      - text: "WFuzz"
+        link: /outils/wfuzz.html
+      - text: "ZAP"
+        link: /outils/zap.html
+
+# Couleurs personnalisées pour un thème cybersécurité
+custom_css:
+  - assets/css/custom.css
+
+# Configuration des assets pour vos images et styles
+assets:
+  images: /assets/images
+  css: /assets/css
+
+# Générer un sitemap pour le SEO
+sitemap:
+  exclude:
+    - /Gemfile
+    - /Gemfile.lock
+  include:
+    - /outils/
+
+# Paramètres avancés pour le déploiement
+relative_permalinks: false
