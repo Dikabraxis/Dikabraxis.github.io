@@ -1,5 +1,3 @@
-# 😁 Mimikatz
-
 **Introduction**\
 Mimikatz est un outil puissant pour l'extraction de mots de passe, de hashes et de tickets Kerberos depuis la mémoire d'un système Windows compromis. Il est souvent utilisé dans les tests de pénétration pour démontrer des failles de sécurité dans les systèmes de gestion des mots de passe et des sessions.
 
