@@ -1,5 +1,3 @@
-# 😁 Empire
-
 **Introduction**\
 Empire est un framework de post-exploitation open-source pour la gestion et l'exploitation des systèmes compromis. Il offre des fonctionnalités puissantes pour la collecte d'informations, l'escalade des privilèges, et l'exécution de commandes via des agents PowerShell ou Python.
 
