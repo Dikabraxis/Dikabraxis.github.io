@@ -1,5 +1,3 @@
-# 😁 Aircrack-ng
-
 **Introduction**\
 Aircrack-ng est une suite d'outils dédiée à l'audit de la sécurité des réseaux sans fil. Elle permet d'analyser les réseaux Wi-Fi pour détecter les vulnérabilités et tester la robustesse des clés de sécurité telles que WPA/WPA2 et WEP. Aircrack-ng est particulièrement utile pour les tests de pénétration sur des réseaux sans fil.
 
