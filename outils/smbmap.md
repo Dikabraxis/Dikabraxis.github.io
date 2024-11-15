@@ -6,7 +6,7 @@ SMBmap est un outil open-source qui facilite l'exploration des partages SMB sur 
 
 SMBmap peut être installé à partir de GitHub. Voici comment procéder :
 
-**Installation sur Linux**
+**Installation sur Linux** 
 
 1.  **Cloner le dépôt GitHub** :
 
