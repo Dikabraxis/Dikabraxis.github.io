@@ -18,5 +18,64 @@
     <main>
         {{ content }}
     </main>
+    <script>
+function searchSite() {
+    const query = document.getElementById('search-input').value.toLowerCase();
+    const results = document.getElementById('search-results');
+    results.innerHTML = '';
+
+    // Liste de toutes les pages du site
+    const pages = [
+        { title: 'Outils', url: '/outils/outils.html' },
+        { title: 'Nmap', url: '/outils/nmap.html' },
+        { title: 'Gobuster', url: '/outils/gobuster.html' },
+        { title: 'SQLMap', url: '/outils/sqlmap.html' },
+        { title: 'Hydra', url: '/outils/hydra.html' },
+        { title: 'Acunetix', url: '/outils/acunetix.html' },
+        { title: 'Aircrack-ng', url: '/outils/aircrack-ng.html' },
+        { title: 'Burp Suite', url: '/outils/burp-suite.html' },
+        { title: 'Cewl', url: '/outils/cewl.html' },
+        { title: 'Dirb', url: '/outils/dirb.html' },
+        { title: 'Empire', url: '/outils/empire.html' },
+        { title: 'Enum4linux', url: '/outils/enum4linux.html' },
+        { title: 'Feroxbuster', url: '/outils/feroxbuster.html' },
+        { title: 'Hashcat', url: '/outils/hashcat.html' },
+        { title: 'John the Ripper', url: '/outils/john-the-ripper.html' },
+        { title: 'Metasploit', url: '/outils/metasploit.html' },
+        { title: 'Mimikatz', url: '/outils/mimikatz.html' },
+        { title: 'Netcat', url: '/outils/netcat.html' },
+        { title: 'Nikto', url: '/outils/nikto.html' },
+        { title: 'OpenVAS', url: '/outils/openvas.html' },
+        { title: 'Penelope', url: '/outils/penelope.html' },
+        { title: 'Pwncat', url: '/outils/pwncat.html' },
+        { title: 'Recon-ng', url: '/outils/recon-ng.html' },
+        { title: 'SMBMap', url: '/outils/smbmap.html' },
+        { title: 'Sublist3r', url: '/outils/sublist3r.html' },
+        { title: 'The Harvester', url: '/outils/the-harvester.html' },
+        { title: 'Wapiti', url: '/outils/wapiti.html' },
+        { title: 'WFuzz', url: '/outils/wfuzz.html' },
+        { title: 'Zap', url: '/outils/zap.html' }
+    ];
+
+    // Filtrer les pages en fonction de la recherche
+    const filteredPages = pages.filter(page => page.title.toLowerCase().includes(query));
+
+    // Afficher les résultats
+    filteredPages.forEach(page => {
+        const link = document.createElement('a');
+        link.href = page.url;
+        link.textContent = page.title;
+        link.style.display = 'block';
+        link.style.padding = '5px 0';
+        results.appendChild(link);
+    });
+
+    // Afficher un message si aucun résultat n'est trouvé
+    if (filteredPages.length === 0 && query !== '') {
+        results.innerHTML = '<p>Aucun résultat trouvé.</p>';
+    }
+}
+</script>
+
 </body>
 </html>
