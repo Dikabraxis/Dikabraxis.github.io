@@ -2,6 +2,7 @@
 layout: default
 title: "Dirb"
 ---
+
 #### Introduction
 
 DIRB est un outil de fuzzing web qui cherche des répertoires et fichiers web existants mais cachés ou non liés sur un serveur. Il fonctionne en lançant un dictionnaire de noms de fichiers et de répertoires contre un serveur web et en analysant les réponses. DIRB est très utile pour l'audit de sécurité pour découvrir des contenus cachés qui ne sont pas directement liés dans les pages visitées. Cela inclut des répertoires avec des permissions faibles, des fichiers de configuration laissés accessibles, et d'autres ressources qui pourraient être exploitées par un attaquant.
