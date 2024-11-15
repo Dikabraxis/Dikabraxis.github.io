@@ -1,5 +1,3 @@
-# 😁 OpenVAS
-
 #### Introduction
 
 OpenVAS (Open Vulnerability Assessment System) est un scanner de vulnérabilités open-source utilisé pour identifier et gérer les vulnérabilités dans les systèmes et les réseaux. Il fait partie de la suite Greenbone Vulnerability Management (GVM).
