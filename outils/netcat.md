@@ -1,5 +1,3 @@
-# 😁 Netcat
-
 #### Introduction
 
 Netcat, souvent surnommé "le couteau suisse des réseaux", est un outil polyvalent et puissant utilisé pour la gestion des connexions réseau. Il peut être utilisé pour diverses tâches telles que l'écoute sur des ports, la connexion à des hôtes distants, le transfert de fichiers, et la création de tunnels. Netcat supporte à la fois les protocoles TCP et UDP, ce qui le rend extrêmement utile dans des scénarios de dépannage réseau, de tests de pénétration et de développement. Ce tutoriel vous guidera à travers les étapes d'installation et d'utilisation de Netcat sur les systèmes Linux et Windows.
