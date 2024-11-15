@@ -1,5 +1,3 @@
-# 😁 The Harvester
-
 #### Introduction
 
 The Harvester est un outil de collecte de renseignements qui aide à obtenir des informations à partir de moteurs de recherche, de réseaux sociaux, et d'autres sources publiques. Il peut être utilisé pour découvrir des adresses e-mail, des sous-domaines, des adresses IP, et plus encore.
