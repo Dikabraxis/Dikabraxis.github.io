@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Burp-Suite"
+---
 #### Introduction
 
 Burp Suite est un ensemble d'outils pour la sécurité des applications web, comprenant un proxy d'interception, un scanner de vulnérabilités, et divers outils pour faciliter les tests de sécurité des applications web.
