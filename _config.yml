@@ -8,7 +8,6 @@ baseurl: ""
 # Inclure tous les fichiers dans le dossier outils
 include:
   - index.md
-  - outils/*.md
 
 # Exclure certains fichiers inutiles lors du rendu
 exclude:
