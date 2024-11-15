@@ -1,5 +1,3 @@
-# 😁 Wfuzz
-
 #### Introduction
 
 Wfuzz est un outil de fuzzing spécialisé dans la découverte de vulnérabilités sur les applications web. Il est utilisé pour tester divers aspects des applications, y compris la découverte de répertoires et de fichiers cachés, ainsi que les tests de paramètres HTTP. Wfuzz est particulièrement utile pour effectuer des attaques par force brute et des tests de pénétration pour identifier des failles de sécurité potentielles. Ce tutoriel détaille l'installation et les commandes de base pour utiliser Wfuzz efficacement sur les systèmes Linux et Windows.
