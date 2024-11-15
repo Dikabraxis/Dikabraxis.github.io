@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Enum4linux"
+---
 #### Introduction
 
 Enum4Linux est un script Perl conçu pour extraire des informations des systèmes Windows à travers le protocole SMB. Il est souvent utilisé pour l'audit de sécurité afin d'obtenir des informations telles que les utilisateurs, les groupes, les partages et les politiques de sécurité d'un domaine Windows.
