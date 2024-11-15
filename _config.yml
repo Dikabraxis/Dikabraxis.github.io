@@ -1,0 +1,63 @@
+
+# Configuration pour le site GitHub Pages
+
+title: "Ma Hacking Base"
+description: "Un site dédié à l'apprentissage du hacking éthique, des outils de pentest, et des techniques de cybersécurité."
+theme: minima
+
+# Configuration du thème
+theme_config:
+  header:
+    background_color: "#0A0A23"  # Bleu foncé pour un look cybersécurité
+    text_color: "#00FF7F"        # Vert néon pour les titres
+    link_color: "#1E90FF"        # Bleu électrique pour les liens
+
+# Sidebar Configuration
+sidebar:
+  - title: "Navigation"
+    items:
+      - text: "Accueil"
+        link: /
+      - text: "Introduction"
+        link: /introduction.html
+      - text: "Outils de Hacking"
+        link: /outils.html
+      - text: "Tutoriels"
+        link: /tutoriels.html
+
+# Markdown Configuration
+markdown: kramdown
+
+# Plugins pour améliorer l'expérience utilisateur
+plugins:
+  - jekyll-toc    # Table des matières pour chaque page
+  - jekyll-sitemap
+
+# Options pour la table des matières
+toc:
+  min_level: 2
+  max_level: 4
+  ordered: true
+  heading: "Sommaire"
+
+# Couleurs personnalisées pour le CSS
+custom_css:
+  - assets/css/custom.css
+
+# Inclure des fichiers supplémentaires
+include:
+  - nmap.md
+  - penelope.md
+  - outils.md
+
+# Exclure certains fichiers du rendu
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# URL du site (à personnaliser si vous avez un domaine personnalisé)
+url: "https://dikabraxis.github.io"
+
+# Activer la génération de liens permanents
+permalink: pretty
