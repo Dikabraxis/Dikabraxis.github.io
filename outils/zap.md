@@ -1,5 +1,3 @@
-# 😁 ZAP
-
 #### Introduction
 
 ZAP (OWASP Zed Attack Proxy) est un outil open-source de test de sécurité des applications web. Il fournit des fonctionnalités telles qu'un proxy, un scanner de vulnérabilités, et des outils de manipulation de requêtes pour évaluer la sécurité des applications web.
